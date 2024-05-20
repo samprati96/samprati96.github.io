@@ -1,5 +1,12 @@
-# samprati96.github.io
+# Samprati96 Portfolio
 
-My portfolio - GitHub site
+Welcome to my personal portfolio website, showcasing my projects and skills.
 
-https://samprati96.github.io/
+## Visit
+
+Explore my portfolio: [samprati96.github.io](https://samprati96.github.io/)
+
+
+## Contact
+
+Connect on [LinkedIn](www.linkedin.com/in/sampratigawande) or email me at [samprativpatil@gmail.com](mailto:samprativpatil@gmail.com).
