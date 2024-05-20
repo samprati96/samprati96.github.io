@@ -1,5 +1,5 @@
-# sudoariel.github.io
+# samprati96.github.io
 
-My portfolio - GitHub sites
+My portfolio - GitHub site
 
-https://sudoariel.github.io/
+https://samprati96.github.io/
