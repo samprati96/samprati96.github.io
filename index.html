@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Samprati Vijay Gawande</title>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/media-selection.js"></script>
+	<script type="text/javascript" src="js/console.js"></script>
+	<script type="text/javascript" src="js/projects/projects.js"></script>
+	<script type="text/javascript" src="js/projects/projects-cards-updater.js"></script>
+	<script type="text/javascript" src="js/projects/languages-field.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/cards.css">
+	<link rel="stylesheet" type="text/css" href="styles/timeline.css">
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="styles/console.css">
+	<link rel="stylesheet" type="text/css" href="styles/projects.css">
+	<link rel="icon" href="assets/favicon.ico">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<nav id="mysidenav" class="sidenav">
+		<div id="mysidenavcontent" class="sidenavcontent">
+			<img src="assets/profile_picture_adjusted.png" alt="Profile picture" class="profile-picture" loading="lazy">
+			<p class="sidebarname">Samprati Gawande</p>
+			<hr>
+			<p class="sidebarcitation">"Code is like poetry; it has to make sense."</p>
+			<p class="sidebarauthor">- Amit Kalantri</p>
+			<hr>
+			<div class="row">
+				<div class="column">
+					<a href="https://www.linkedin.com/in/sampratigawande/" target="_blank">
+						<img id="linkedin" src="assets/medias/linkedin.png" onMouseOver="selected(this)"
+							onMouseOut="unselected(this)" alt="Go to LinkedIn profile" class="mediaicon" loading="lazy"> 
+					</a>
+				</div>
+				<div class="column">
+					<a href="https://github.com/samprati96" target="_blank">
+						<img id="github" src="assets/medias/github.png" onMouseOver="selected(this)"
+							onMouseOut="unselected(this)" alt="Go to GitHub profile" class="mediaicon" loading="lazy">
+					</a>
+				</div>
+				<div class="column">
+					<a href="https://www.facebook.com/samprativ.gawande/" target="_blank">
+						<img id="facebook" src="assets/medias/facebook.png" onMouseOver="selected(this)"
+							onMouseOut="unselected(this)" alt="Go to Facebook profile" class="mediaicon" loading="lazy">
+					</a>
+				</div>
+				<div class="column">
+					<a href="https://www.instagram.com/samprati_vijay_gawande/" target="_blank">
+						<img id="instagram" src="assets/medias/instagram.png" onMouseOver="selected(this)"
+							onMouseOut="unselected(this)" alt="Go to Instagram profile" class="mediaicon" loading="lazy">
+					</a>
+				</div>
+			</div>
+
+			<div class="nav_btns">
+				<button id="btn_aboutme" onClick="navscroll(this)">ABOUT ME</button><br>
+				<button id="btn_myskills" onClick="navscroll(this)">MY SKILLS</button><br>
+				<button id="btn_work" onClick="navscroll(this)">WORK EXPERIENCE</button><br>
+				<button id="btn_education" onClick="navscroll(this)">EDUCATION</button><br>
+				<button id="btn_projects" onClick="navscroll(this)">PROJECTS</button><br>
+			</div>
+			
+			<div class="nav_bottom_btns">
+				<div class="column_button">
+					<button onclick="location.href='mailto:samprativpatil@gmail.com'" id="btn_contactme">CONTACT ME</button>
+				</div>
+				<div class="column_button">
+					<button onclick="location.href='https://drive.google.com/file/d/1UPnQdB5-8sAHIoVi8X6hFoUrix9lUu15/view?usp=sharing'" target="_blank" id="btn_viewresume">GET MY CV</button>
+				</div>							
+			</div>
+
+		</div>
+	</nav>
+	<div id="mycontent" class="content">
+		<section id="about_me" class="scroll-element">
+			<div class="title">
+				<h1 class="firstname">
+					Samprati
+				</h1>
+				<h1 class="lastname">
+					Gawande
+				</h1>
+			</div>
+			<div class="container">
+				<img id="console" class="console_img" src="assets/console.png" loading="lazy">
+				<div id="typedtext" class="typedtextclass"> </div>
+			</div>
+		</section>
+
+		<section id="my_skills" class="aftertw scroll-element">
+			<h1 class="titlehead">
+				MY SKILLS
+			</h1>
+			<div id="skills_grid_view" class="skill-cards">
+				<div id="programming_languages_and_frameworks" class="card">
+					<h3 class="card_title"><b>Programming Languages and Frameworks</b></h3>
+					<ul class="card_list">
+						<li>Ruby on Rails</li>
+						<li>Java/Spring Boot</li>
+						<li>.NET</li>
+						<li>JavaScript Frameworks (e.g., React, Angular)</li>
+					</ul>
+				</div>
+				<div id="software_development" class="card">
+					<h3 class="card_title">Software Development</h3>
+					<ul class="card_list">
+						<li>Enterprise SaaS Application Development</li>
+						<li>Web Application Development</li>
+						<li>Business Application Development</li>
+						<li>Distributed Systems Design</li>
+					</ul>
+				</div>
+				<div id="integration_and_middleware" class="card">
+					<h3 class="card_title">Integration and Middleware</h3>
+					<ul class="card_list">
+						<li>Middleware/Application Integration Products</li>
+						<li>API Development and Integration</li>
+						<li>Microservices Architecture</li>
+						<li>Containers (e.g., Docker, Kubernetes)</li>
+						<li>API Development and Integration</li>
+						<li>Message Queues (e.g., Kafka)</li>
+						<li>Search Technologies (e.g., Elasticsearch)</li>
+					</ul>
+				</div>
+				<div id="database_management" class="card">
+					<h3 class="card_title"> Database Management</h3>
+					<ul class="card_list">
+						<li>MySQL</li>
+						<li>Database Performance Optimization</li>
+						<li>Query Optimization</li>
+						<li>Troubleshooting Database Issues</li>
+					</ul>
+				</div>
+				<div id="cloud_computing" class="card">
+					<h3 class="card_title"> Cloud Computing</h3>
+					<ul class="card_list">
+						<li>Cloud Platforms (e.g., AWS, Azure, Google Cloud Platform)</li>
+						<li>Serverless Computing</li>
+						<li>Cloud-native Development</li>
+						<li>Scalability and Performance Optimization in Cloud Environments</li>
+					</ul>
+				</div>
+				<div id="software_architecture" class="card">
+					<h3 class="card_title">Software Architecture</h3>
+					<ul class="card_list">
+						<li>Enterprise Architecture</li>
+						<li>Software Development Life Cycle (SDLC) Methodologies</li>
+						<li>System Refactoring</li>
+						<li>Legacy Application Modularization</li>
+					</ul>
+				</div>
+				<div id="tools_and_technologies" class="card">
+					<h3 class="card_title">Tools and Technologies</h3>
+					<ul class="card_list">
+						<li>Version Control (e.g., Git)</li>
+						<li>Continuous Integration/Continuous Deployment (CI/CD)</li>
+						<li>Containerization Tools (e.g., Docker, Kubernetes)</li>
+						<li>Monitoring and Logging Tools</li>
+					</ul>
+				</div>
+				<div id="additional_technical_expertise" class="card">
+					<h3 class="card_title">Additional Technical Expertise</h3>
+					<ul class="card_list">
+						<li>Design Patterns and Standards</li>
+						<li>Agile and Iterative Development Processes</li>
+					</ul>
+				</div>
+				<div id="soft_skills" class="card">
+					<h3 class="card_title">Soft Skills</h3>
+					<ul class="card_list">
+						<li>Cross-functional Team Collaboration</li>
+						<li>Technical Documentation</li>
+						<li>Problem-Solving and Troubleshooting</li>
+						<li>Effective Communication (Written and Verbal)</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="work_experience" class="aftertw scroll-element">
+
+			<h1 class="titlehead">
+				WORK EXPERIENCE
+			</h1>
+			<div class="we_timeline">
+				<div class="we_container left">
+					<div class="we_date">Jan 2024 - Now</div>
+					<img class="icon" alt="Texas A&M University Logo" src="assets/timeline/Texas_A&M_University.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>Research Assistant</h2>
+						<h3>Texas A&M University</h3>
+					</div>
+				</div>
+				<div class="we_container right">
+					<div class="we_date">Mar 2020 - July 2023</div>
+					<img class="icon" alt="Coupa Logo" src="assets/timeline/coupa.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>Software Engineer</h2>
+						<h3>Coupa Software</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="education" class="aftertw scroll-element">
+			<h1 class="titlehead">
+				EDUCATION
+			</h1>
+			<div class="we_timeline">
+				<div class="we_container left">
+					<div class="we_date_education">2023 - NOW</div>
+					<img class="icon" alt="TAMU Logo" src="assets/timeline/Texas_A&M_University.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>M.S. Computer Science</h2>
+						<h3>Texas A&M University</h3>
+					</div>
+				</div>
+				<div class="we_container right">
+					<div class="we_date_education">2019 - 2020</div>
+					<img class="icon" alt="Sunbeam Logo" src="assets/timeline/sunbeam.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>P.G.Dip Advance Computing</h2>
+						<h3>Sunbeam Institute of Information Technology, Pune</h3>
+					</div>
+				</div>
+				<div class="we_container left">
+					<div class="we_date_education">2015 - 2019</div>
+					<img class="icon" alt="GCOEA Logo" src="assets/timeline/gcoea.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>B.Tech. Electronics and Telecommunication</h2>
+						<h3>Government College of Engineering, Amravati</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="aftertw scroll-element last-section">
+			<h1 class="titlehead">
+				PROJECTS
+			</h1>
+			<input type="radio" name="slider" id="left_slider">
+			<input type="radio" name="slider" id="center_slider" checked>
+			<input type="radio" name="slider" id="right_slider">			
+			<div id="projects_view" class="projects-cards">
+				<label id="left_card" for="left_slider"  class="left_card card clearfix">
+					<h1  class="card_title">Games</h1> 
+					<img id="left_img" class="card_logo" loading="lazy" src="assets/projects/tic_tac_toe.png"/>
+					<p class="card_description">
+						These game projects showcase a variety of applications, like interactive gaming experiences, all deployed and hosted on AWS.
+					</p>
+					<button id="left_card_button" class="projectsbutton"></button>
+				</label>
+				<label id="center_card" for="center_slider" class="center_card card clearfix">
+					<h1  class="card_title">Ruby on Rails</h1> 
+					<img id="center_img" class="card_logo" src="assets/projects/ruby11.png" loading="lazy"/>
+					<p class="card_description">
+						These Ruby on Rails projects span diverse applications, from mathematical computations to algorithm implementations.
+					</p>
+					<button id="center_card_button" onclick="location.href='https://github.com/samprati96/RubyProjects'" class="projectsbutton"></button>
+				</label>
+				<label id="right_card" for="right_slider" class="right_card card clearfix">
+					<h1  class="card_title">React</h1> 
+					<img id="right_img" class="card_logo" src="assets/projects/react.png" loading="lazy"/>
+					<p class="card_description">
+						These React projects encompass a wide range of applications, from user interface components to full-fledged web applications.
+					</p>
+					<button id="right_card_button" class="projectsbutton"></button>
+				</label>
+			</div>
+			<div id="projects_languages" class="projects-languages clearfix" loading="lazy"></div>
+		</section>
+	</div>	
+</body>
+
+</html>
